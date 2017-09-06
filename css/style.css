@@ -1,0 +1,314 @@
+﻿@font-face {
+font-family:'FiraSans';
+src: url('../fonts/FiraSans/FiraSans-Regular.ttf');
+}
+
+@font-face {
+font-family:'FiraSansLight';
+src: url('../fonts/FiraSans/FiraSans-Light.ttf');
+}
+@font-face {
+font-family:'FiraSansMedium';
+src: url('../fonts/FiraSans/FiraSans-Medium.ttf');
+}
+@font-face {
+font-family:'fontawesome';
+src: url('../fonts/FontAwesome/fontawesome-webfont.ttf');
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+body {
+	font-size: 12px; 
+	font-family: FiraSans, Arial, Helvetica, Sans-serif; 
+}
+
+ul {
+	text-decoration:none;
+}
+
+p {
+	color:#727272;
+}
+
+a {
+	color: #8cc34b;
+}
+
+h2 {
+			font-family: FiraSansMedium, Arial, Helvetica, Sans-serif; 
+			font-size:42px;
+			margin: 68px 0 20px 0;
+		}
+		
+.zag, .kurs .zag {
+			font-family: FiraSansLight, Arial, Helvetica, Sans-serif;
+			font-size:21px;
+			color:#727272;
+			margin-bottom:40px;
+		}
+		
+ h3 {
+			font-family: FiraSans, Arial, Helvetica, Sans-serif; 
+			font-size:21px;
+			margin-bottom:15px;
+		}
+
+.header {
+	background-color:#8cc34b;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.22);
+	height:90px;
+	margin-bottom:10px;
+	
+}
+	.bistrov {
+		float:left;
+		padding-left:28px;
+		padding-top:15px;
+	}
+		.bistrov-foto {
+		 background-image:url("../images/afthor.png"); 
+		 border: 3px solid #fff;
+		 border-radius:50% 50%;
+		 float:left;
+		 height:60px;
+		 width:60px;
+		}
+		.bistrov-date {
+			float:left;
+			margin: 10px 0 0 20px;
+		}
+			.bistrov-name {
+				font-size:21px;
+				color:#fff;
+			}
+			
+			.bistrov-mail a{
+				color:#e1eed4;
+				font-size:14px;
+				padding-top:28px;
+				text-decoration: none;
+			}
+	.socnet {
+		float:right;
+		padding-right:29px;
+	}
+	
+		.socnet>a {
+			text-decoration:none;
+		}
+		
+		.socnet>a>svg {
+			display:block;
+			float:left;
+			fill:#e1eed4;
+			margin: 32px 0 0 19px;
+					}
+		.socnet>a>svg:hover {
+			fill:#fff;
+		}
+		
+nav {
+	background-color:#fff;
+	margin:0 auto;
+	overflow:hidden;
+	width:960px;
+	margin-bottom:60px;
+}
+	
+	 .zag,  h2{
+	text-align:center;
+	}
+		
+		
+		.future-name {
+			float:left;
+			font-size: 14px;
+			line-height:21px;
+		}
+		
+		.future-name object {
+			float:left;
+			width:140px;
+			margin-right:20px;
+		}
+		
+		.future-name .future-text {
+			font-family: FiraSansLight, Arial, Helvetica, Sans-serif;
+			float:right;
+			width:271px;
+			margin-right:20px;
+		}
+		
+		.future-name .future-title {
+			font-family: FiraSansLight, Arial, Helvetica, Sans-serif;
+			font-size: 14px;
+			color: #8cc34b;
+			
+		}
+		
+		.future-name .future-body {
+			font-family: FiraSansLight, Arial, Helvetica, Sans-serif;
+			color:#727272;
+			display:none;
+			margin-right:20px;
+			width:271px;
+			
+		}
+		
+main {
+	background-image:url("../gplaypattern.png");
+	position:relative;
+	height:100%;
+	width:100%;
+	}
+	
+	.kurs {
+		margin:0 auto 20px auto;
+		overflow:hidden;
+		width:960px;
+		
+		}
+	.kurs:last-child {
+		padding-bottom:100px;
+	}
+		
+		.kurs p {
+			font-family: FiraSansLight, Arial, Helvetica, Sans-serif;
+			font-size: 14px;
+			line-height:21px;
+			}
+			
+			.kurs-name {
+				background-color:#fff;
+				box-shadow: 0 1px 5px rgba(0,0,0,0.22);
+				float:left;
+				margin-top:20px;
+				margin-right:20px;
+				margin-bottom:5px;
+				width:300px;
+				}
+			
+			.kurs-text {
+				padding:20px;
+			}
+			
+			.kurs-check {
+				background-color: #f6f7f2;
+				height:20px;
+				padding:20px;	
+				}
+				
+					.kurs-check label {
+						font-family: FiraSans, Arial, Helvetica, Sans-serif; 
+						font-size:18px;
+						color:#727272;
+						}
+			
+			.lesson {
+				color:#b6b6b6;
+				padding-top:20px;
+			}
+			
+				.kurs-head {
+					height:170px;
+					width:300px;
+				}
+					.d1 {
+					background-image:url("../images/js.png");}
+					.d2 {
+					background-image:url("../images/jqw.png");}
+					.d3 {
+					background-image:url("../images/base.png");}
+					.d4 {
+					background-image:url("../images/adapt.png");}
+					.d5 {
+					background-image:url("../images/butget.png");}
+					.d6 {
+					background-image:url("../images/cssgal.png");}
+					
+				 
+				 .checkbox {
+					display: none;
+				}
+ 
+				.checkbox-custom {
+					position: relative;     
+					width: 18px;             
+					height: 18px;            
+					border: 2px solid #ccc;
+					border-radius: 2px;
+					margin-right:20px;
+				}
+ 
+				.checkbox-custom,
+				.label {
+					display: inline-block;
+					vertical-align: middle;
+				}
+ 
+				.checkbox:checked + .checkbox-custom::before {
+					content: "";             
+					display: block;          
+					position: absolute;     
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background:url(../images/check.png) no-repeat #8cc34b ;					
+					border-radius: 2px;
+				}
+			.kurs-not {
+				display:none;
+				color: #8cc34b;
+				width:100%;
+				
+			}	
+			.kurs-not h2{
+				font-size:42px;
+				height:100px;
+				padding:500px 0;
+			}
+							
+			.kurs-footer {
+				content:"";
+				height:60px;
+				margin-bottom:60px;
+				position: relative;
+			}
+				
+.clear {
+	 clear:both;
+	 content:"";
+ }
+
+ 
+ 
+footer {
+	background-color:#212121;
+	position:absolute;
+	left:0;
+	bottom:0px;
+	width:100%;
+	}
+	
+	footer p {
+		font-family: FiraSans, Arial, Helvetica, Sans-serif; 
+		font-size:14px;
+		color:#727272;
+		padding:20px 0;
+		text-align: center;}
+
+ 
